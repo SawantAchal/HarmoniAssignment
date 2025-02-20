@@ -1,26 +1,19 @@
-import React from 'react'
+import React from 'react';
 
-const ProductsCard = ({product}) => {
+const ProductsCard = ({ product, openModal }) => {
   return (
-    <>
-        <main>
-            <section className='p-3.5 h-96 flex flex-col items-center justify-between border-2 w-3xs'>
-                <img src={product.image} alt='product image' className='h-56  p-3'/>
-                <section className='flex items-center flex-col'>
-                    <p>{product.title}</p>
-                    <section className='flex flex-col'>
-                        <p>${product.price}</p>
-                        <section className='flex '>
-                            <p></p>
-                            <p>({product.rating.count})</p>
-                        </section>
-                    </section>
-                </section>
-                <button className='bg-black text-white w-full bottom-0 h-9'>ADD TO CART</button>
-            </section>
-        </main>
-    </>
-  )
-}
+    <div className="p-4 h-96 flex flex-col items-center justify-between border-2 rounded-lg shadow-md transition hover:shadow-lg cursor-pointer bg-white"onClick={() => openModal(product)}>
+      <img src={product.image} alt="product image" className="h-48 object-contain p-3" />
+      <section className="flex flex-col items-center text-center">
+        <p className="font-semibold">{product.title}</p>
+        <p className="text-lg font-bold text-green-600">${product.price}</p>
+        <div className="flex items-center space-x-1 text-sm text-gray-600">
+          <p>{product.rating.rate}⭐</p>
+          <p>({product.rating.count} reviews)</p>
+        </div>
+      </section>
+    </div>
+  );
+};
 
-export default ProductsCard
+export default ProductsCard;
