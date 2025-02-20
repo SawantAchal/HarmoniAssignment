@@ -20,8 +20,7 @@ A modern and responsive **My Stire** with product browsing, cart management, and
 
 1️**Clone the Repository**  
 git clone https://github.com/SawantAchal/HarmoniAssignment.git
-cd ecommerce-project
-
+cd HarmoniAssignment-main
 npm install
 npm run dev
 The app should launch in the browser at http://localhost:5173 (for Vite).
