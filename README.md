@@ -19,7 +19,7 @@ A modern and responsive **My Stire** with product browsing, cart management, and
   ## How to Install and Run the Project
 
 1️**Clone the Repository**  
-git clone https://github.com/your-username/ecommerce-project.git
+git clone https://github.com/SawantAchal/HarmoniAssignment.git
 cd ecommerce-project
 
 npm install
