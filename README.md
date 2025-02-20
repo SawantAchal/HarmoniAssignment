@@ -1,5 +1,5 @@
-# My Shop
-A modern and responsive **My Stire** with product browsing, cart management, and a clean UI design. This project uses **FakeStore API** to fetch product data.
+# My Store
+A modern and responsive **My Store** with product browsing, cart management, and a clean UI design. This project uses **FakeStore API** to fetch product data.
 
 ##  Features
 
