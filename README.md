@@ -1,4 +1,4 @@
-# 🛍My Shop
+# My Shop
 A modern and responsive **My Stire** with product browsing, cart management, and a clean UI design. This project uses **FakeStore API** to fetch product data.
 
 ##  Features
@@ -18,7 +18,7 @@ A modern and responsive **My Stire** with product browsing, cart management, and
 
   ## How to Install and Run the Project
 
-1️⃣ **Clone the Repository**  
+1️**Clone the Repository**  
 git clone https://github.com/your-username/ecommerce-project.git
 cd ecommerce-project
 
